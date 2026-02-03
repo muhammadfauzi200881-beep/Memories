@@ -470,10 +470,7 @@ body{
 /* ANIMASI */
 .show{
   animatio.text-content {
-  flex: 1;
-  background: #fff;
-  padding: 25px;
-  border-radius: 18px;
+  animation: slideDown 2.5s ease;
 }
 
 .text-content h3 {
@@ -485,9 +482,23 @@ body{
   font-size: 15px;
   line-height: 1.6;
   color: #333;
-}n:slideDown 2.5s ease;
 }
 
+  @media (max-width: 768px) {
+  .gallery-wrapper,
+  .gallery-row,
+  .gallery-row.reverse {
+    flex-direction: column;
+  }
+
+  .photo-grid img {
+    height: 130px;
+  }
+
+  .gallery-title {
+    font-size: 26px;
+  }
+  }
 @keyframes slideDown{
   from{opacity:0; transform:translateY(-30px);}
   to{opacity:1; transform:translateY(0);}

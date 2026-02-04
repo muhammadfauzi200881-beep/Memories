@@ -375,7 +375,7 @@ flex-direction: row-reverse;
 /* FOTO GRID */
 .photo-grid {
 display: grid;
-grid-template-columns: repeat(2, 1fr):
+grid-template-columns: repeat(2, 1fr);
 gap: 15px;
 flex: 1;
 }

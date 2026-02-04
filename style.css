@@ -368,7 +368,7 @@ align-items: flex-start;
 gap: 50px;
 }
 
-gallery-wrapper.reverse, .gallery-row.reverse{
+.gallery-wrapper.reverse, .gallery-row.reverse{
 flex-direction: row-reverse;
 }
 
